@@ -26,6 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+nav {
+  color: red;
+  border: solid white 2px;
+  width: 10%;
+  border-radius: 5px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
